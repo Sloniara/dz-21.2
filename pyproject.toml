@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "online-store-1-5"
+version = "0.1.0"
+description = ""
+authors = ["kirillbarkhatov <k.s.barkhatov@gmail.com>"]
+readme = "README.md"
+packages = [{include = "online_store_1"}]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
